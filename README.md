@@ -1,6 +1,6 @@
 # Frontend Mentor - Article preview component
 
-![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Article preview component coding challenge](https://res.cloudinary.com/garzon/image/upload/v1600625314/Front%20End%20Mentor/desktop-preview_r4teid.jpg)
 
 ## Welcome! 👋
 
