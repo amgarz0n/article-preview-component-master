@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(212, 23%, 69%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+    background-color: white;
+    display: flex;
+}
+
+.image img {
+    height: 50%;
+}
+
+.description {
+    margin: 5px;
+    max-width: 50%;
+}
+
+/* Mobile */
+/* @media only screen and (max-width: 375px) {
+
+} */
+
+/* Desktop */
+/* @media only screen and (max-width: 1440px) {
+
+} */
