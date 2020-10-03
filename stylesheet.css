@@ -11,13 +11,32 @@
 body {
     background-color: hsl(210, 46%, 95%);
     font-family: 'Manrope', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color:hsl(214, 17%, 51%);
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+h1, h2, h3, h4, h5 {
+    color:hsl(217, 19%, 35%);
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 14px;
 }
 
 .image img {
@@ -38,14 +57,19 @@ h1 {
 .avatar img {
     border-radius: 100%;
     width: 40px;
+    margin-right: 20px;
 }
 
 .share-link {
     background-color: hsl(210, 46%, 95%);
     padding: 10px;
     border-radius: 100%;
-    width: 50px;
-    
+    width: 40px;
+    height: 40px;
+}
+
+.share-link img {
+    margin: auto auto;
 }
 
 .description {
@@ -56,11 +80,22 @@ h1 {
 
 .author-info {
     display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.author {
+    display: flex;
+}
+
+.info {
+    margin-right: 10px;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    opacity: 40%;
   }
 
 .attribution a {
